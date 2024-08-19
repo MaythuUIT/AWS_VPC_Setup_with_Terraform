@@ -6,12 +6,12 @@ This project uses Terraform to set up an AWS VPC in the Singapore region (ap-sou
 
 ### Files Structure
 
-variables.tf : Declares all necessary variables.
-terraform.tfvars : Sets values for the declared variables.
-main.tf : Main Terraform configuration file that defines the Provider information
-vpc.tf : Defines the VPC information.
-subnet.tf : Defines the subnet information.
-igw.tf : Defines the IGW information.
-route_table.tf : Defines the route table and association information.
+-variables.tf : Declares all necessary variables.
+-terraform.tfvars : Sets values for the declared variables.
+-main.tf : Main Terraform configuration file that defines the Provider information
+-vpc.tf : Defines the VPC information.
+-subnet.tf : Defines the subnet information.
+-igw.tf : Defines the IGW information.
+-route_table.tf : Defines the route table and association information.
 
 This setup creates a VPC with public and private subnets across all available availability zones in the Singapore region, along with the necessary route tables and internet gateway.
