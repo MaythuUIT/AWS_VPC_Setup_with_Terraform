@@ -3,7 +3,11 @@
 ### Objective
 
 This project uses Terraform to set up an AWS VPC in the Singapore region (ap-southeast-1) with public and private subnets across all available availability zones. The public subnets are associated with a public route table and an internet gateway (IGW), while the private subnets are associated with a private route table.
-![VPC_Base_Infra](https://github.com/user-attachments/assets/afc2644d-de7e-4cb0-8085-6133b1929182)
+
+
+
+![VPC_Base_Infra](https://github.com/user-attachments/assets/18106804-16ac-440f-b49f-1422fa88b1ec)
+
 
 ### Files Structure
 1. variables.tf: Declares all necessary variables.
